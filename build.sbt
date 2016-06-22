@@ -11,7 +11,8 @@ libraryDependencies ++= Seq(
   cache,
   ws,
   "org.scalatestplus.play" %% "scalatestplus-play" % "1.5.1" % Test,
-  "com.asprise.ocr" % "java-ocr-api" % "[15,)"
+  "com.asprise.ocr" % "java-ocr-api" % "[15,)",
+  "de.vorb" % "jtesseract" % "0.0.4"
 )
 
 resolvers += "scalaz-bintray" at "http://dl.bintray.com/scalaz/releases"
