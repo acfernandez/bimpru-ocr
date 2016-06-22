@@ -27,3 +27,5 @@ target
 .worksheet
 /log
 *.zip
+.cache-main
+.cache-tests
